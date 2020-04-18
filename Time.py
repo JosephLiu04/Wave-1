@@ -1,0 +1,8 @@
+Days = int(input("please enter the amount of days: "))
+Hours = int(input("please enter the amount of hours: "))
+Minutes = int(input("please enter the amount of minutes: "))
+Seconds = int(input("please enter the amount of seconds: "))
+a = (Days * 86400)
+b = (Hours * 3600)
+c = (Minutes * 60)
+print(str(a + b + c + Seconds) , "seconds")
